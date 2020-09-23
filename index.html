@@ -8,6 +8,7 @@
     <title>Weather Forecast</title>
 </head>
 <body>
+    <!-- h1   -->
     <div class="container">
     <h1 id="dashBrd"> Weather Dashboard</h1>
 
@@ -16,17 +17,22 @@
             <form id="search-Bar">
                
         <div class="form-group">
-                    <!-- search input -->
+                    <!-- search city input -->
                   <input type="email" class="form-control" id="searchInput" aria-describedby="emailHelp" placeholder="Enter City">
-                <!-- button input -->
+                <!-- search button -->
                     </div>
                 <button type="submit" class="btn btn-outline-light" id="searchBtn">Search</button>
            
             </form>
+            <br>
+            <div class="count">
+            <p>Todo Count: <span id="cityCount">0</span></p>
         </div>
-    
-<!-- Current weather col  -->
-<div class="col-8 col px-4"> 
+        <div class="card" id="searchDisplay">
+            <ul id="city-results"></ul>
+        </div> </div>
+<!-- Current weather  -->
+<div class="col-8 col px-5" id="testing1"> 
     
 <div class="card-block">
     <div class="card-body" id="currentDis">
@@ -39,7 +45,7 @@
         </div>
     </div>
     
-    
+    <!-- forecast display  -->
     <div class="col" id="testing">
         
         <div class="card" id="foreCast">

@@ -1,10 +1,13 @@
 
 var searchResult = document.querySelector("#search-Bar");
+var quickCity = ["Orlando", "Tampa"];
+var cityList = document.querySelector ("#city-results")
+var citycountSpan = document.querySelector("#cityCount");
 var searches = [];
+
 
 $(document).ready(function() {
  
-    var searchResult = document.querySelector("#search-Bar");
     
     $("#searchBtn").on("click", function(event){
         event.preventDefault();
@@ -59,5 +62,10 @@ function uv(city) {
 
     })
 }
+
+
+
+
+
 
 })

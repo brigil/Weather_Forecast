@@ -5,7 +5,7 @@ body {
     background-image: url("/assets/im/cool-cloud-background-1.jpg");
     
   }
-
+/* this controls h1  */
 
 #dashBrd {
     background-color: transparent;
@@ -15,8 +15,22 @@ body {
     font-size: 50px;
     
 }
+/* City search results  */
+#searchDisplay {
+    margin-top: 30px;
+    height: 100px ;
+}
 
+.count {
+    color: whitesmoke;
+}
+/* moves the current weather display card to the right by adding margin to the left */
 
+#testing1 {
+    margin-left: 50px;
+
+}
+/* gives the current weather display card a opacity look*/
 .card-block { 
     
     background-color: rgba(245, 245, 245, 0.4) !important;
@@ -25,13 +39,9 @@ body {
    
     } 
 
-.copyR {
-    text-align: center;
-    position:fixed;bottom:0;left:0;right:0;height:30px;
-  }
-    
+ 
+    /* this controls the forecast cards  */
   #foreCast {
-    
    
     background-color: MediumSeaGreen;
     border-radius: 10px;
@@ -44,12 +54,19 @@ body {
   
     
   }
-
+/* this controls the forecast card and moves it to the right with a margin */
   #testing {
       float: right;
-      margin-right: 100px;
+      margin-right: 70px;
       margin-bottom: 90px;
   }
 
 
-
+/* Footer  */
+.copyR  {
+  
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 20px;
+    color: whitesmoke
+  }
