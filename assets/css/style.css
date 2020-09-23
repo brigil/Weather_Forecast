@@ -1,7 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-image: url("/assets/im/cool-cloud-background-1.jpg");
+    
+  }
+
+
 #dashBrd {
-    background-color: #696969;
+    background-color: transparent;
     text-align: center;
     color: white;
     padding: 20px;
+    font-size: 50px;
     
 }
+
+.curtDisplay {
+    height: 350px;
+    
+
+}
+
+

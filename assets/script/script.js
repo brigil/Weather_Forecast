@@ -4,7 +4,7 @@ var searches = [];
 
 $(document).ready(function() {
  
-   
+    var searchResult = document.querySelector("#search-Bar");
     
     $("#searchBtn").on("click", function(event){
         event.preventDefault();
@@ -14,6 +14,7 @@ $(document).ready(function() {
      
       currentWeather(cityInput)
       forecast(cityInput);
+      uv(cityInput);
 }) 
 
     
@@ -44,7 +45,19 @@ function forecast(city) {
     
 }
 
+function uv(city) {
 
+
+
+
+    $.ajax({
+        method: "GET",
+        url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=8f63f215819badad4ad86bbbab862826&units=imperial"
+
+    }).then(function (_uvStat) {
+
+
+    })
+}
 
 })
-
