@@ -9,7 +9,7 @@ $(document).ready(function() {
     $("#searchBtn").on("click", function(event){
         event.preventDefault();
     
-     // this is how and where the user input goes 
+      
       var cityInput = $("#searchInput").val().trim();
      
       currentWeather(cityInput)
