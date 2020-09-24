@@ -21,9 +21,7 @@ body {
     height: 100px ;
 }
 
-.count {
-    color: whitesmoke;
-}
+
 /* moves the current weather display card to the right by adding margin to the left */
 
 #testing1 {
@@ -69,4 +67,17 @@ body {
     bottom: 0;
     margin-bottom: 20px;
     color: whitesmoke
+  }
+
+  .searchedCityBtn {
+      width: 250px;
+      margin-left: 2px;
+      height: 30px;
+      background-color:  transparent;
+        color:white
+  }
+  .searchedCityBtn:hover {
+      background-color:  white;
+      color:  #8FBC8F;
+      border-color: #8FBC8F;
   }
