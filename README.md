@@ -2,4 +2,4 @@
 
 This Weather Dashboard finds the weather conditions of any city you choose. 
 
-<img src="/assets/img/screeb.png">
+<img src="./assets/im/screeb.png">  
