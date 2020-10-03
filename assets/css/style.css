@@ -1,13 +1,12 @@
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1;
-    background-image: url("/assets/im/cool-cloud-background-1.jpg");
-    
-  }
+    c
+  } */
 /* this controls h1  */
 
-#dashBrd {
+/* #dashBrd {
     background-color: transparent;
     text-align: center;
     color: white;
@@ -63,7 +62,7 @@ body {
 /* Footer  */
 .copyR  {
   
-    text-align: center;
+     text-align: center;
     bottom: 0;
     margin-bottom: 20px;
     color: whitesmoke
@@ -80,4 +79,4 @@ body {
       background-color:  white;
       color:  #8FBC8F;
       border-color: #8FBC8F;
-  }
+  } */
