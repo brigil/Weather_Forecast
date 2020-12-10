@@ -10,74 +10,17 @@ body {
     background-image: url("https://i.pinimg.com/originals/ff/ef/fb/ffeffbb56be042323c9662c26a52f86b.jpg");
 }
     
-  
-/* header class for h1 */
-
-#dashBrd {
-    background-color: transparent;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    font-size: 50px;
-    
-}
-/* City search results  */
-#searchDisplay {
-    margin-top: 30px;
-    height: 100px ;
+.hide {
+  display: none;
 }
 
-
-/* gives the current weather display card a opacity look*/
-.card-block { 
-    
-    background-color: rgba(245, 245, 245, 0.4) !important;
-    height: 400px;
-        
-   
-    } 
-
- 
-    /* this controls the forecast cards  */
-  #foreCast {
-   
-    background-color: #8FBC8F;
-    border-radius: 10px;
-    margin-top: 40px;
-    height: 200px;
-    width: 10rem;
-    opacity: 0.7;
-    float: right;
-    
-  
-    
-  }
-/* this controls the forecast card and moves it to the right with a margin */
-  #testing {
-      float: right;
-      margin-right: 70px;
-      margin-bottom: 90px;
-  }
-/* controls the search city input box and button */
- #searchInput{
-   height: 35px;
-   width: 200px;
-   padding-left: 10px;
- }
-  #searchBtn {
-    height: 35px;
-    background-color:  transparent;
-    color:white
+.show {
+  display: block;
 }
-  #searchBtn:hover {
-      background-color:  white;
-      color:  #8FBC8F;
-      border-color: #8FBC8F;    
-  }
 /* Footer  */
 .copyR  {  
-text-align: center;
-bottom: 0;
-margin-bottom: 20px;
-color: whitesmoke
-}
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 20px;
+  color: whitesmoke
+  }
